@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-08T21:40:59 CDT" name="Surefire suite" finished-at="2024-04-08T21:41:35 CDT" duration-ms="36491">
+    <groups>
+    </groups>
+    <test started-at="2024-04-08T21:40:59 CDT" name="Surefire test" finished-at="2024-04-08T21:41:35 CDT" duration-ms="36491">
+      <class name="org.sel.pom.tests.AddToCartTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.sel.pom.tests.AddToCartTest@78e117e3]" started-at="2024-04-08T21:40:59 CDT" name="startDriver" finished-at="2024-04-08T21:41:07 CDT" duration-ms="7873" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="addToCartFromStorePage()[pri:0, instance:org.sel.pom.tests.AddToCartTest@78e117e3]" started-at="2024-04-08T21:41:07 CDT" name="addToCartFromStorePage" finished-at="2024-04-08T21:41:17 CDT" duration-ms="10560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartFromStorePage -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:org.sel.pom.tests.AddToCartTest@78e117e3]" started-at="2024-04-08T21:41:17 CDT" name="quitDriver" finished-at="2024-04-08T21:41:24 CDT" duration-ms="6748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- org.sel.pom.tests.AddToCartTest -->
+      <class name="org.sel.pom.tests.NavigationTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.sel.pom.tests.NavigationTest@79b06cab]" started-at="2024-04-08T21:40:59 CDT" name="startDriver" finished-at="2024-04-08T21:41:06 CDT" duration-ms="7100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="NavigateToStoreUsingMainMenu()[pri:0, instance:org.sel.pom.tests.NavigationTest@79b06cab]" started-at="2024-04-08T21:41:06 CDT" name="NavigateToStoreUsingMainMenu" finished-at="2024-04-08T21:41:12 CDT" duration-ms="6697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToStoreUsingMainMenu -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:org.sel.pom.tests.NavigationTest@79b06cab]" started-at="2024-04-08T21:41:12 CDT" name="quitDriver" finished-at="2024-04-08T21:41:13 CDT" duration-ms="744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- org.sel.pom.tests.NavigationTest -->
+      <class name="org.sel.pom.tests.CheckoutTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.sel.pom.tests.CheckoutTest@2ea227af]" started-at="2024-04-08T21:40:59 CDT" name="startDriver" finished-at="2024-04-08T21:41:06 CDT" duration-ms="7747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.sel.pom.tests.CheckoutTest@2ea227af]" started-at="2024-04-08T21:40:59 CDT" name="startDriver" finished-at="2024-04-08T21:41:07 CDT" duration-ms="7912" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="GuestCheckoutUsingDircetBankTransfer()[pri:0, instance:org.sel.pom.tests.CheckoutTest@2ea227af]" started-at="2024-04-08T21:41:06 CDT" name="GuestCheckoutUsingDircetBankTransfer" finished-at="2024-04-08T21:41:27 CDT" duration-ms="20789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GuestCheckoutUsingDircetBankTransfer -->
+        <test-method signature="LoginAndCheckoutUsingDircetBankTransfer()[pri:0, instance:org.sel.pom.tests.CheckoutTest@2ea227af]" started-at="2024-04-08T21:41:07 CDT" name="LoginAndCheckoutUsingDircetBankTransfer" finished-at="2024-04-08T21:41:33 CDT" duration-ms="26867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAndCheckoutUsingDircetBankTransfer -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:org.sel.pom.tests.CheckoutTest@2ea227af]" started-at="2024-04-08T21:41:27 CDT" name="quitDriver" finished-at="2024-04-08T21:41:27 CDT" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:org.sel.pom.tests.CheckoutTest@2ea227af]" started-at="2024-04-08T21:41:33 CDT" name="quitDriver" finished-at="2024-04-08T21:41:34 CDT" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- org.sel.pom.tests.CheckoutTest -->
+      <class name="org.sel.pom.tests.SearchTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.sel.pom.tests.SearchTest@3eb7fc54]" started-at="2024-04-08T21:40:59 CDT" name="startDriver" finished-at="2024-04-08T21:41:07 CDT" duration-ms="7893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="SearchWithPartialMatch()[pri:0, instance:org.sel.pom.tests.SearchTest@3eb7fc54]" started-at="2024-04-08T21:41:07 CDT" name="SearchWithPartialMatch" finished-at="2024-04-08T21:41:13 CDT" duration-ms="5983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchWithPartialMatch -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:org.sel.pom.tests.SearchTest@3eb7fc54]" started-at="2024-04-08T21:41:13 CDT" name="quitDriver" finished-at="2024-04-08T21:41:23 CDT" duration-ms="10243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- org.sel.pom.tests.SearchTest -->
+      <class name="org.sel.pom.tests.LoginTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.sel.pom.tests.LoginTest@4386f16]" started-at="2024-04-08T21:40:59 CDT" name="startDriver" finished-at="2024-04-08T21:41:06 CDT" duration-ms="7124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="loginDuringCheckout()[pri:0, instance:org.sel.pom.tests.LoginTest@4386f16]" started-at="2024-04-08T21:41:06 CDT" name="loginDuringCheckout" finished-at="2024-04-08T21:41:35 CDT" duration-ms="29040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDuringCheckout -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:org.sel.pom.tests.LoginTest@4386f16]" started-at="2024-04-08T21:41:35 CDT" name="quitDriver" finished-at="2024-04-08T21:41:35 CDT" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- org.sel.pom.tests.LoginTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

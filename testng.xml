@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite1" verbose="1" thread-count="2" parallel="tests">
+<!--    <parameter name="url" value="https://url.com"/>-->
+
+<!--    <test name="Chrome" enabled="false">-->
+    <test name="Chrome" thread-count="1" parallel="methods">
+        <parameter name="browser" value="FIREFOX"/>
+        <classes>
+            <class name="org.sel.pom.tests.AddToCartTest">
+            <methods>
+                <include name="addToCartFromStorePage"/>
+            </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Firefox" thread-count="1" parallel="methods">
+        <!--        <packages>-->
+        <!--            <package name="org.sel.pom.tests"/>-->
+        <!--        </packages>-->
+        <parameter name="browser"  value="FIREFOX"/>
+        <classes>
+            <class name="org.sel.pom.tests.MyFirstTestCase">
+            <methods>
+                <include name="guestCheckoutUsingDirectBankTransfer"/>
+                <include name="loginAndCheckoutUsingDircetBankTransfer"/>
+            </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
